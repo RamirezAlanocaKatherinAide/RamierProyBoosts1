@@ -1,0 +1,170 @@
+.padre{
+    padding: 5px;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-areas: "header header header"
+                        "nav   nav nav"
+                        "cont1 cont2 cont3"
+                        "foot foot foot";
+
+}
+.padre .header{
+    grid-area: header;
+}
+.padre .nav{
+    grid-area: nav;
+}
+.padre .cont1{
+    grid-area: cont1;
+}
+.padre .cont2{
+    grid-area: cont2;
+}
+.padre .cont3{
+    grid-area: cont3;
+}
+.padre .foot{
+    grid-area: foot;
+}
+
+
+/* bibliofafia */
+.padreBiblio{
+    padding: 5px;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-areas: "header header header"
+                        "nav   nav nav"
+                        "cont1 cont1 cont1"
+                        "cont2 cont2 cont2"
+                        "foot foot foot";
+
+}
+.padreBiblio .header{
+    grid-area: header;
+}
+.padreBiblio .nav{
+    grid-area: nav;
+}
+.padreBiblio .cont1{
+    grid-area: cont1;
+}
+.padreBiblio .cont2{
+    grid-area: cont2;
+}
+.padreBiblio .foot{
+    grid-area: foot;
+}
+
+/* CONTACTOS */
+.padreCont{
+    padding: 5px;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 3fr 2fr ;
+    grid-template-areas: "header header "
+                        "nav   nav "
+                        "cont1 cont2 "
+                        "cont1 cont2 "
+                        "foot foot ";
+
+}
+.padreCont .header{
+    grid-area: header;
+}
+.padreCont .nav{
+    grid-area: nav;
+}
+.padreCont .cont1{
+    grid-area: cont1;
+}
+.padreCont .cont2{
+    grid-area: cont2;
+}
+.padreCont .foot{
+    grid-area: foot;
+}
+
+/* LOOGIN */
+.padreLogi{
+    padding: 5px;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 3fr 2fr ;
+    grid-template-areas: "header header "
+                        "nav   nav "
+                        "cont1 cont1 "
+                        "cont2 cont2 "
+                        "foot foot ";
+
+}
+.padreLogi .header{
+    grid-area: header;
+}
+.padreLogi .nav{
+    grid-area: nav;
+}
+.padreLogi .cont1{
+    grid-area: cont1;
+}
+.padreLogi .cont2{
+    grid-area: cont2;
+}
+.padreLogi .foot{
+    grid-area: foot;
+}
+@media (max-width:768px) {
+    .padre{
+        grid-template-columns: 1fr;
+        background-color: brown;
+        grid-template-areas:"header "
+                            "nav"
+                        "cont1" 
+                        "cont2 "
+                        "cont3"
+                        "foot ";
+                            
+                            ;
+    }
+}
+@media (max-width:768px) {
+    .padreBiblio{
+        grid-template-columns: 1fr;
+        background-color: brown;
+        grid-template-areas:"header "
+                            "nav"
+                        "cont1" 
+                        "cont2 "
+                        "foot ";
+                            
+                            ;
+    }
+}
+@media (max-width:768px) {
+    .padreCont{
+        grid-template-columns: 1fr;
+        background-color: brown;
+        grid-template-areas:"header "
+                            "nav"
+                        "cont1" 
+                        "cont2 "
+                        "foot ";
+                            
+                            ;
+    }
+}
+@media (max-width:768px) {
+    .padreLogi{
+        grid-template-columns: 1fr;
+        background-color: brown;
+        grid-template-areas:"header "
+                            "nav"
+                        "cont1" 
+                        "cont2 "
+                        "foot ";
+                            
+                            ;
+    }
+}
